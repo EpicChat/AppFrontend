@@ -1,5 +1,6 @@
 FROM node:18
 
+ENV NITRO_PORT=3004
 # Create app directory
 WORKDIR /usr/src/app
 
